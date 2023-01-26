@@ -1,0 +1,1179 @@
+Variable,Feature,Data Type,Feature Set
+fn_pctaian,First name: P(AIAN|F),Numeric,Baseline
+fn_pctapi,First name: P(API|F),Numeric,Baseline
+fn_pctblack,First name: P(BLACK|F),Numeric,Baseline
+fn_pcthisp,First name: P(HISP|F),Numeric,Baseline
+fn_pctwhite,First name: P(WHITE|F),Numeric,Baseline
+fn_pctother,First name: P(OTHER|F),Numeric,Baseline
+fn_missing,Missing first name,Boolean,Baseline
+sn_pctaian,Surname: P(S|AIAN),Numeric,Baseline
+sn_pctapi,Surname: P(S|API),Numeric,Baseline
+sn_pctblack,Surname: P(S|BLACK),Numeric,Baseline
+sn_pcthisp,Surname: P(S|HISP),Numeric,Baseline
+sn_pctwhite,Surname: P(S|WHITE),Numeric,Baseline
+sn_pctother,Surname: P(S|OTHER),Numeric,Baseline
+sn_missing,Missing surname,Boolean,Baseline
+geo_pctaian,Geolocation: P(AIAN|G),Numeric,Baseline
+geo_pctapi,Geolocation: P(API|G),Numeric,Baseline
+geo_pctblack,Geolocation: P(BLACK|G),Numeric,Baseline
+geo_pctwhite,Geolocation: P(WHITE|G),Numeric,Baseline
+geo_pctother,Geolocation: P(OTHER|G),Numeric,Baseline
+geo_pcthisp,Geolocation: P(HISP|G),Numeric,Baseline
+geo_missing,Missing geolocation,Boolean,Baseline
+age,Age,Numeric,Baseline
+age_missing,Missing age,Boolean,Demographic
+gender,Gender,One-hot (2 categories),Demographic
+gender_other-unknown,Missing gender,Boolean,Demographic
+maritalstatus,Martial Status,One-hot (4 categories),Demographic
+maritalstatus_other-unknown,Missing or other marital status,Boolean,Demographic
+state,State,One-hot (51 categories),Demographic
+state_missing,Missing state,Boolean,Demographic
+language_speak_eng,Knows/speaks English,Boolean,Behavioral
+language_speak_spanish,Knows/speaks Spanish,Boolean,Behavioral
+language_speak_chinese,Knows/speaks Chinese,Boolean,Behavioral
+language_speak_viet,Knows/speaks Vietnamese,Boolean,Behavioral
+language_speak_phili,Knows/speaks Filipino,Boolean,Behavioral
+language_speak_armenian,Knows/speaks Armenian,Boolean,Behavioral
+language_speak_yiddish,Knows/speaks Yiddish,Boolean,Behavioral
+language_speak_other,Knows/speaks other language,Boolean,Behavioral
+language_speak_multilan,Knows/speaks multiple languages,Boolean,Behavioral
+language_missing,Missing language,Boolean,Behavioral
+sochist_tobacco,Has ever used tobacco or smoked,Boolean,Behavioral
+sochist_missing,Missing social history,Boolean,Behavioral
+insurance_n_ins,Number of recorded insurance plans,Numeric,Administrative
+insurance_n_active,Number of active insurance plans,Numeric,Administrative
+insurance_n_same_as_guarantor,Number same as guarantor,Numeric,Administrative
+insurance_had_bcbs,Had/has Blue Cross Blue Shield,Boolean,Administrative
+insurance_had_medicare,Had/has Medicare,Boolean,Administrative
+insurance_had_medical,Had/has Medical,Boolean,Administrative
+insurance_had_aetna,Had/has Aetna,Boolean,Administrative
+insurance_had_uhc,Had/has United Healthcare,Boolean,Administrative
+insurance_had_cigna,Had/has Cigna,Boolean,Administrative
+insurance_had_humana,Had/has Humana,Boolean,Administrative
+insurance_had_tricare,Had/has Tricare,Boolean,Administrative
+insurance_had_coventry,Had/has Coventry,Boolean,Administrative
+insurance_had_medica,Had/has Medica,Boolean,Administrative
+insurance_had_private,Had/has other private,Boolean,Administrative
+insurance_did_self_pay,Had/has self-pay,Boolean,Administrative
+insurance_had_capitated,Had/has capitated plan,Boolean,Administrative
+insurance_had_any,Had/has any insurance,Boolean,Administrative
+insurance_missing,Missing insurance,Boolean,Administrative
+visit_2010,Visit counts in 2010,Numeric,Administrative
+visit_2011,Visit counts in 2011,Numeric,Administrative
+visit_2012,Visit counts in 2012,Numeric,Administrative
+visit_2013,Visit counts in 2013,Numeric,Administrative
+visit_2014,Visit counts in 2014,Numeric,Administrative
+visit_2015,Visit counts in 2015,Numeric,Administrative
+visit_2016,Visit counts in 2016,Numeric,Administrative
+visit_2017,Visit counts in 2017,Numeric,Administrative
+visit_2018,Visit counts in 2018,Numeric,Administrative
+visit_2019,Visit counts in 2019,Numeric,Administrative
+visit_2020,Visit counts in 2020,Numeric,Administrative
+visit_2021,Visit counts in 2021,Numeric,Administrative
+visit_2022,Visit counts in 2022,Numeric,Administrative
+visit_missing,Missing visit counts,Numeric,Administrative
+allergies_n_allergies,Number of allergies,Numeric,General Health
+allergies_nkda,No known drug allergies,Boolean,General Health
+allergies_nka,No known allergies,Boolean,General Health
+allergies_penicillin,Penicillin allergy,Boolean,General Health
+allergies_sulfas,Sulfa allergy,Boolean,General Health
+allergies_latex,Latex allergy,Boolean,General Health
+allergies_codeine,Codeine allergy,Boolean,General Health
+allergies_aspirin,Aspirin allergy,Boolean,General Health
+allergies_aceinhibit,ACE inhibitor allergy,Boolean,General Health
+allergies_doxycycline,Doxycycline allergy,Boolean,General Health
+allergies_amoxicillin,Amoxicillin allergy,Boolean,General Health
+allergies_statin,Statin allergy,Boolean,General Health
+allergies_morphine,Morphine allergy,Boolean,General Health
+allergies_ibuprofen,Ibuprofen allergy,Boolean,General Health
+allergies_nsaids,NSAID allergy,Boolean,General Health
+allergies_iodine,Iodine allergy,Boolean,General Health
+allergies_biaxin,Biaxin allergy,Boolean,General Health
+allergies_prednisone,Prednisone allergy,Boolean,General Health
+allergies_missing,Missing allergies,Boolean,General Health
+immunization_immunization_num,Number of immunizations,Numeric,General Health
+immunization_missing,Missing immunizations,Boolean,General Health
+vitals_bmi,BMI,Numeric,General Health
+vitals_counts_bmi,BMI number of observations,Numeric,General Health
+vitals_bmi_missing,Missing BMI,Numeric,General Health
+vitals_bp_systolic,BP systolic,Numeric,General Health
+vitals_counts_bp_systolic,BP systolic number of observations,Numeric,General Health
+vitals_bp_systolic_missing,Missing BP systolic,Boolean,General Health
+vitals_bp_diastolic,BP diastolic,Numeric,General Health
+vitals_counts_bp_diastolic,BP diastolic number of observations,Numeric,General Health
+vitals_bp_diastolic_missing,Missing BP diastolic,Boolean,General Health
+vitals_height,Height,Numeric,General Health
+vitals_counts_height,Height number of observations,Numeric,General Health
+vitals_height_missing,Missing height,Boolean,General Health
+vitals_hr,Heart rate,Numeric,General Health
+vitals_counts_hr,Heart rate number of observations,Numeric,General Health
+vitals_hr_missing,Missing heart rate,Boolean,General Health
+vitals_oxygen,Oxygen saturation,Numeric,General Health
+vitals_counts_oxygen,Oxygen saturdation number of observations,Numeric,General Health
+vitals_oxygen_missing,Missing oxygen saturation,Boolean,General Health
+vitals_respiratory,Respiratory rate,Numeric,General Health
+vitals_counts_respiratory,Respiratory rate number of observations,Numeric,General Health
+vitals_respiratory_missing,Missing respiratory rate,Boolean,General Health
+vitals_temp,Temperature,Numeric,General Health
+vitals_counts_temp,Temperature number of observations,Numeric,General Health
+vitals_temp_missing,Missing temperature,Boolean,General Health
+vitals_weight,Weight,Numeric,General Health
+vitals_counts_weight,Weight number of observations,Numeric,General Health
+vitals_weight_missing,Missing weight,Boolean,General Health
+procedure_anesthesia,CPT Category I: Anesthesia,Boolean,Medical
+procedure_pathology,CPT Category I: Pathology and laboratory procedures,Boolean,Medical
+procedure_medicine_servs,CPT Category I: Medicine services and procedures,Boolean,Medical
+procedure_radiology,CPT Category I: Radiology procedures,Boolean,Medical
+procedure_surgery,CPT Category I: Surgery,Boolean,Medical
+procedure_eval_management,CPT Category I: Evaluation & management,Boolean,Medical
+procedure_cpt_cat2_composite_measures,CPT Category II: Composite measures,Boolean,Medical
+procedure_cpt_cat2_patient_management,CPT Category II: Patient management,Boolean,Medical
+procedure_cpt_cat2_patient_history,CPT Category II: Patient history,Boolean,Medical
+procedure_cpt_cat2_physical_exam,CPT Category II: Physical examination,Boolean,Medical
+procedure_cpt_cat2_diagnostic_or_results,CPT Category II:  Diagnostic/screening processes or results,Boolean,Medical
+procedure_cpt_cat2_interventions,"CPT Category II:  Therapeutic, preventive or other interventions",Boolean,Medical
+procedure_cpt_cat2_followup,CPT Category II: Follow-up or other outcomes,Boolean,Medical
+procedure_cpt_cat2_patient_safety,CPT Category II: Patient safety,Boolean,Medical
+procedure_cpt_cat2_structural_measures,CPT Category II: Structural measures,Boolean,Medical
+procedure_cpt_cat2_non-measure,CPT Category II: Non-measure codes ,Boolean,Medical
+procedure_cpt_cat2_other,CPT Category II: Other ,Boolean,Medical
+procedure_cpt_covid_vac,CPT: COVID-19 vaccine,Boolean,Medical
+procedure_cpt_other_code,CPT (Any level): Other,Boolean,Medical
+procedure_hcpcs_enteral_therapy,HCPCS: Enteral and parenteral therapy,Boolean,Medical
+procedure_hcpcs_other_therapy,HCPCS: Other therapy ,Boolean,Medical
+procedure_hcpcs_outpatient_pps,HCPCS: Outpatient PPS,Boolean,Medical
+procedure_hcpcs_durable_medical,HCPCS: Durable medical equipment,Boolean,Medical
+procedure_hcpcs_professional_srvs,HCPCS: Professional services,Boolean,Medical
+procedure_hcpcs_alcohol_drug_abuse_treatment,HCPCS: Alcohol and drug abuse treatment,Boolean,Medical
+procedure_hcpcs_non_oral_drugs,HCPCS: Drugs administered other than oral method,Boolean,Medical
+procedure_hcpcs_chemo,HCPCS: Chemotherapy drugs,Boolean,Medical
+procedure_hcpcs_dme_mac,HCPCS: Durable medical equipment Medicare administrative contractors,Boolean,Medical
+procedure_hcpcs_cas,"HCPCS: Components, accessories, and supplies",Boolean,Medical
+procedure_hcpcs_orthotic,HCPCS: Orthotic procedures and services  ,Boolean,Medical
+procedure_hcpcs_prosthetic,HCPCS: Prosthetic procedures ,Boolean,Medical
+procedure_hcpcs_misc,HCPCS: Miscellaneous medical services,Boolean,Medical
+procedure_hcpcs_screening,HCPCS: Screening procedures,Boolean,Medical
+procedure_hcpcs_episode_of_care,HCPCS: Episode of care,Boolean,Medical
+procedure_hcpcs_other_srvs,HCPCS: Other services,Boolean,Medical
+procedure_hcpcs_pathology,HCPCS: Pathology and laboratory services,Boolean,Medical
+procedure_hcpcs_temp,HCPCS: Temporary codes,Boolean,Medical
+procedure_hcpcs_temp_non_medicare,HCPCS: Temporary national codes (non-Medicare),Boolean,Medical
+procedure_hcpcs_diagonostic_radiology,HCPCS: Diagonostic radiology services,Boolean,Medical
+procedure_hcpcs_state_medicaid,HCPCS: National codes established for state Medicaid agencies,Boolean,Medical
+procedure_hcpcs_corona,HCPCS: Coronavirus diagnostic panel,Boolean,Medical
+procedure_hcpcs_vision,HCPCS: Vision services,Boolean,Medical
+procedure_hcpcs_hearing,HCPCS: Hearing services,Boolean,Medical
+procedure_hcpcs_ambulance,HCPCS: Ambulance and other transport services and supplies ,Boolean,Medical
+procedure_hcpcs_wound_management,HCPCS: Wound management ,Boolean,Medical
+procedure_hcpcs_skin_sub,HCPCS: Skin substitute device,Boolean,Medical
+procedure_hcpcs_med_surgical_supplies,HCPCS: Medical and surgical supplies,Boolean,Medical
+procedure_hcpcs_admin,"HCPCS: Administrative, miscellaneous, and investigational",Boolean,Medical
+procedure_hcpcs_other,HCPCS: Other  ,Boolean,Medical
+procedure_other_queried_tobacco_use,Other code: Queried tobacco use,Boolean,Medical
+procedure_other_never_smoker,Other code: Never smoker,Boolean,Medical
+procedure_other_gastrologst_ref,Other code: Gastroenterologist,Boolean,Medical
+procedure_other_depression_scrn,Other code: Depression screening,Boolean,Medical
+procedure_other_transfer_of_care,Other code: Transfer of care,Boolean,Medical
+procedure_other_other,Other code: Other ,Boolean,Medical
+procedure_missing,Missing procedure,Boolean,Medical
+problem_diagnosis_a020,ICD10: A020,Boolean,Medical
+problem_diagnosis_a047,ICD10: A047,Boolean,Medical
+problem_diagnosis_a080,ICD10: A080,Boolean,Medical
+problem_diagnosis_a088,ICD10: A088,Boolean,Medical
+problem_diagnosis_a4189,ICD10: A4189,Boolean,Medical
+problem_diagnosis_a5901,ICD10: A5901,Boolean,Medical
+problem_diagnosis_a6009,ICD10: A6009,Boolean,Medical
+problem_diagnosis_a6920,ICD10: A6920,Boolean,Medical
+problem_diagnosis_a749,ICD10: A749,Boolean,Medical
+problem_diagnosis_a938,ICD10: A938,Boolean,Medical
+problem_diagnosis_b009,ICD10: B009,Boolean,Medical
+problem_diagnosis_b02,ICD10: B02,Boolean,Medical
+problem_diagnosis_b029,ICD10: B029,Boolean,Medical
+problem_diagnosis_b070,ICD10: B070,Boolean,Medical
+problem_diagnosis_b078,ICD10: B078,Boolean,Medical
+problem_diagnosis_b079,ICD10: B079,Boolean,Medical
+problem_diagnosis_b085,ICD10: B085,Boolean,Medical
+problem_diagnosis_b088,ICD10: B088,Boolean,Medical
+problem_diagnosis_b09,ICD10: B09,Boolean,Medical
+problem_diagnosis_b181,ICD10: B181,Boolean,Medical
+problem_diagnosis_b350,ICD10: B350,Boolean,Medical
+problem_diagnosis_b351,ICD10: B351,Boolean,Medical
+problem_diagnosis_b353,ICD10: B353,Boolean,Medical
+problem_diagnosis_b354,ICD10: B354,Boolean,Medical
+problem_diagnosis_b355,ICD10: B355,Boolean,Medical
+problem_diagnosis_b360,ICD10: B360,Boolean,Medical
+problem_diagnosis_b370,ICD10: B370,Boolean,Medical
+problem_diagnosis_b373,ICD10: B373,Boolean,Medical
+problem_diagnosis_b850,ICD10: B850,Boolean,Medical
+problem_diagnosis_b89,ICD10: B89,Boolean,Medical
+problem_diagnosis_b951,ICD10: B951,Boolean,Medical
+problem_diagnosis_b9681,ICD10: B9681,Boolean,Medical
+problem_diagnosis_b9729,ICD10: B9729,Boolean,Medical
+problem_diagnosis_c3491,ICD10: C3491,Boolean,Medical
+problem_diagnosis_c4360,ICD10: C4360,Boolean,Medical
+problem_diagnosis_c439,ICD10: C439,Boolean,Medical
+problem_diagnosis_c44119,ICD10: C44119,Boolean,Medical
+problem_diagnosis_c44300,ICD10: C44300,Boolean,Medical
+problem_diagnosis_c44310,ICD10: C44310,Boolean,Medical
+problem_diagnosis_c44311,ICD10: C44311,Boolean,Medical
+problem_diagnosis_c44319,ICD10: C44319,Boolean,Medical
+problem_diagnosis_c44320,ICD10: C44320,Boolean,Medical
+problem_diagnosis_c44321,ICD10: C44321,Boolean,Medical
+problem_diagnosis_c44629,ICD10: C44629,Boolean,Medical
+problem_diagnosis_c44701,ICD10: C44701,Boolean,Medical
+problem_diagnosis_c4490,ICD10: C4490,Boolean,Medical
+problem_diagnosis_c4491,ICD10: C4491,Boolean,Medical
+problem_diagnosis_c50811,ICD10: C50811,Boolean,Medical
+problem_diagnosis_c61,ICD10: C61,Boolean,Medical
+problem_diagnosis_c642,ICD10: C642,Boolean,Medical
+problem_diagnosis_c73,ICD10: C73,Boolean,Medical
+problem_diagnosis_c799,ICD10: C799,Boolean,Medical
+problem_diagnosis_c9111,ICD10: C9111,Boolean,Medical
+problem_diagnosis_c9310,ICD10: C9310,Boolean,Medical
+problem_diagnosis_d06,ICD10: D06,Boolean,Medical
+problem_diagnosis_d07,ICD10: D07,Boolean,Medical
+problem_diagnosis_d126,ICD10: D126,Boolean,Medical
+problem_diagnosis_d127,ICD10: D127,Boolean,Medical
+problem_diagnosis_d170,ICD10: D170,Boolean,Medical
+problem_diagnosis_d1723,ICD10: D1723,Boolean,Medical
+problem_diagnosis_d225,ICD10: D225,Boolean,Medical
+problem_diagnosis_d259,ICD10: D259,Boolean,Medical
+problem_diagnosis_d329,ICD10: D329,Boolean,Medical
+problem_diagnosis_d369,ICD10: D369,Boolean,Medical
+problem_diagnosis_d374,ICD10: D374,Boolean,Medical
+problem_diagnosis_d472,ICD10: D472,Boolean,Medical
+problem_diagnosis_d485,ICD10: D485,Boolean,Medical
+problem_diagnosis_d487,ICD10: D487,Boolean,Medical
+problem_diagnosis_d490,ICD10: D490,Boolean,Medical
+problem_diagnosis_d492,ICD10: D492,Boolean,Medical
+problem_diagnosis_d496,ICD10: D496,Boolean,Medical
+problem_diagnosis_d497,ICD10: D497,Boolean,Medical
+problem_diagnosis_d508,ICD10: D508,Boolean,Medical
+problem_diagnosis_d509,ICD10: D509,Boolean,Medical
+problem_diagnosis_d518,ICD10: D518,Boolean,Medical
+problem_diagnosis_d519,ICD10: D519,Boolean,Medical
+problem_diagnosis_d539,ICD10: D539,Boolean,Medical
+problem_diagnosis_d563,ICD10: D563,Boolean,Medical
+problem_diagnosis_d568,ICD10: D568,Boolean,Medical
+problem_diagnosis_d571,ICD10: D571,Boolean,Medical
+problem_diagnosis_d573,ICD10: D573,Boolean,Medical
+problem_diagnosis_d631,ICD10: D631,Boolean,Medical
+problem_diagnosis_d649,ICD10: D649,Boolean,Medical
+problem_diagnosis_d721,ICD10: D721,Boolean,Medical
+problem_diagnosis_d72829,ICD10: D72829,Boolean,Medical
+problem_diagnosis_d7289,ICD10: D7289,Boolean,Medical
+problem_diagnosis_d841,ICD10: D841,Boolean,Medical
+problem_diagnosis_d860,ICD10: D860,Boolean,Medical
+problem_diagnosis_d8687,ICD10: D8687,Boolean,Medical
+problem_diagnosis_d869,ICD10: D869,Boolean,Medical
+problem_diagnosis_e012,ICD10: E012,Boolean,Medical
+problem_diagnosis_e018,ICD10: E018,Boolean,Medical
+problem_diagnosis_e030,ICD10: E030,Boolean,Medical
+problem_diagnosis_e034,ICD10: E034,Boolean,Medical
+problem_diagnosis_e038,ICD10: E038,Boolean,Medical
+problem_diagnosis_e039,ICD10: E039,Boolean,Medical
+problem_diagnosis_e040,ICD10: E040,Boolean,Medical
+problem_diagnosis_e041,ICD10: E041,Boolean,Medical
+problem_diagnosis_e063,ICD10: E063,Boolean,Medical
+problem_diagnosis_e089,ICD10: E089,Boolean,Medical
+problem_diagnosis_e1021,ICD10: E1021,Boolean,Medical
+problem_diagnosis_e1065,ICD10: E1065,Boolean,Medical
+problem_diagnosis_e108,ICD10: E108,Boolean,Medical
+problem_diagnosis_e109,ICD10: E109,Boolean,Medical
+problem_diagnosis_e1100,ICD10: E1100,Boolean,Medical
+problem_diagnosis_e1122,ICD10: E1122,Boolean,Medical
+problem_diagnosis_e1129,ICD10: E1129,Boolean,Medical
+problem_diagnosis_e1136,ICD10: E1136,Boolean,Medical
+problem_diagnosis_e1140,ICD10: E1140,Boolean,Medical
+problem_diagnosis_e1142,ICD10: E1142,Boolean,Medical
+problem_diagnosis_e1151,ICD10: E1151,Boolean,Medical
+problem_diagnosis_e11622,ICD10: E11622,Boolean,Medical
+problem_diagnosis_e1165,ICD10: E1165,Boolean,Medical
+problem_diagnosis_e1169,ICD10: E1169,Boolean,Medical
+problem_diagnosis_e119,ICD10: E119,Boolean,Medical
+problem_diagnosis_e119 00,ICD10: E119 00,Boolean,Medical
+problem_diagnosis_e211,ICD10: E211,Boolean,Medical
+problem_diagnosis_e271,ICD10: E271,Boolean,Medical
+problem_diagnosis_e291,ICD10: E291,Boolean,Medical
+problem_diagnosis_e46,ICD10: E46,Boolean,Medical
+problem_diagnosis_e538,ICD10: E538,Boolean,Medical
+problem_diagnosis_e55,ICD10: E55,Boolean,Medical
+problem_diagnosis_e550,ICD10: E550,Boolean,Medical
+problem_diagnosis_e559,ICD10: E559,Boolean,Medical
+problem_diagnosis_e569,ICD10: E569,Boolean,Medical
+problem_diagnosis_e660,ICD10: E660,Boolean,Medical
+problem_diagnosis_e6601,ICD10: E6601,Boolean,Medical
+problem_diagnosis_e6609,ICD10: E6609,Boolean,Medical
+problem_diagnosis_e663,ICD10: E663,Boolean,Medical
+problem_diagnosis_e669,ICD10: E669,Boolean,Medical
+problem_diagnosis_e669 00,ICD10: E669 00,Boolean,Medical
+problem_diagnosis_e723,ICD10: E723,Boolean,Medical
+problem_diagnosis_e780,ICD10: E780,Boolean,Medical
+problem_diagnosis_e7800,ICD10: E7800,Boolean,Medical
+problem_diagnosis_e7800 00,ICD10: E7800 00,Boolean,Medical
+problem_diagnosis_e781,ICD10: E781,Boolean,Medical
+problem_diagnosis_e782,ICD10: E782,Boolean,Medical
+problem_diagnosis_e784,ICD10: E784,Boolean,Medical
+problem_diagnosis_e785,ICD10: E785,Boolean,Medical
+problem_diagnosis_e7881,ICD10: E7881,Boolean,Medical
+problem_diagnosis_e804,ICD10: E804,Boolean,Medical
+problem_diagnosis_e83118,ICD10: E83118,Boolean,Medical
+problem_diagnosis_e8330,ICD10: E8330,Boolean,Medical
+problem_diagnosis_e8351,ICD10: E8351,Boolean,Medical
+problem_diagnosis_e8352,ICD10: E8352,Boolean,Medical
+problem_diagnosis_e860,ICD10: E860,Boolean,Medical
+problem_diagnosis_e870,ICD10: E870,Boolean,Medical
+problem_diagnosis_e871,ICD10: E871,Boolean,Medical
+problem_diagnosis_e875,ICD10: E875,Boolean,Medical
+problem_diagnosis_e876,ICD10: E876,Boolean,Medical
+problem_diagnosis_e878,ICD10: E878,Boolean,Medical
+problem_diagnosis_e8809,ICD10: E8809,Boolean,Medical
+problem_diagnosis_e8881,ICD10: E8881,Boolean,Medical
+problem_diagnosis_f0390,ICD10: F0390,Boolean,Medical
+problem_diagnosis_f0391,ICD10: F0391,Boolean,Medical
+problem_diagnosis_f1010,ICD10: F1010,Boolean,Medical
+problem_diagnosis_f1011,ICD10: F1011,Boolean,Medical
+problem_diagnosis_f10129,ICD10: F10129,Boolean,Medical
+problem_diagnosis_f1020,ICD10: F1020,Boolean,Medical
+problem_diagnosis_f1410,ICD10: F1410,Boolean,Medical
+problem_diagnosis_f1520,ICD10: F1520,Boolean,Medical
+problem_diagnosis_f17200,ICD10: F17200,Boolean,Medical
+problem_diagnosis_f17210,ICD10: F17210,Boolean,Medical
+problem_diagnosis_f17218,ICD10: F17218,Boolean,Medical
+problem_diagnosis_f17219,ICD10: F17219,Boolean,Medical
+problem_diagnosis_f17220,ICD10: F17220,Boolean,Medical
+problem_diagnosis_f1910,ICD10: F1910,Boolean,Medical
+problem_diagnosis_f320,ICD10: F320,Boolean,Medical
+problem_diagnosis_f321,ICD10: F321,Boolean,Medical
+problem_diagnosis_f328,ICD10: F328,Boolean,Medical
+problem_diagnosis_f329,ICD10: F329,Boolean,Medical
+problem_diagnosis_f32a,ICD10: F32A,Boolean,Medical
+problem_diagnosis_f330,ICD10: F330,Boolean,Medical
+problem_diagnosis_f331,ICD10: F331,Boolean,Medical
+problem_diagnosis_f3341,ICD10: F3341,Boolean,Medical
+problem_diagnosis_f3342,ICD10: F3342,Boolean,Medical
+problem_diagnosis_f338,ICD10: F338,Boolean,Medical
+problem_diagnosis_f341,ICD10: F341,Boolean,Medical
+problem_diagnosis_f410,ICD10: F410,Boolean,Medical
+problem_diagnosis_f411,ICD10: F411,Boolean,Medical
+problem_diagnosis_f418,ICD10: F418,Boolean,Medical
+problem_diagnosis_f419,ICD10: F419,Boolean,Medical
+problem_diagnosis_f42,ICD10: F42,Boolean,Medical
+problem_diagnosis_f430,ICD10: F430,Boolean,Medical
+problem_diagnosis_f5101,ICD10: F5101,Boolean,Medical
+problem_diagnosis_f5102,ICD10: F5102,Boolean,Medical
+problem_diagnosis_f5105,ICD10: F5105,Boolean,Medical
+problem_diagnosis_f5109,ICD10: F5109,Boolean,Medical
+problem_diagnosis_f519,ICD10: F519,Boolean,Medical
+problem_diagnosis_f5221,ICD10: F5221,Boolean,Medical
+problem_diagnosis_f530,ICD10: F530,Boolean,Medical
+problem_diagnosis_f633,ICD10: F633,Boolean,Medical
+problem_diagnosis_f800,ICD10: F800,Boolean,Medical
+problem_diagnosis_f8089,ICD10: F8089,Boolean,Medical
+problem_diagnosis_f849,ICD10: F849,Boolean,Medical
+problem_diagnosis_f900,ICD10: F900,Boolean,Medical
+problem_diagnosis_f901,ICD10: F901,Boolean,Medical
+problem_diagnosis_f909,ICD10: F909,Boolean,Medical
+problem_diagnosis_f980,ICD10: F980,Boolean,Medical
+problem_diagnosis_g250,ICD10: G250,Boolean,Medical
+problem_diagnosis_g2581,ICD10: G2581,Boolean,Medical
+problem_diagnosis_g2589,ICD10: G2589,Boolean,Medical
+problem_diagnosis_g300,ICD10: G300,Boolean,Medical
+problem_diagnosis_g301,ICD10: G301,Boolean,Medical
+problem_diagnosis_g3184,ICD10: G3184,Boolean,Medical
+problem_diagnosis_g35,ICD10: G35,Boolean,Medical
+problem_diagnosis_g43,ICD10: G43,Boolean,Medical
+problem_diagnosis_g43109,ICD10: G43109,Boolean,Medical
+problem_diagnosis_g43909,ICD10: G43909,Boolean,Medical
+problem_diagnosis_g44009,ICD10: G44009,Boolean,Medical
+problem_diagnosis_g441,ICD10: G441,Boolean,Medical
+problem_diagnosis_g44201,ICD10: G44201,Boolean,Medical
+problem_diagnosis_g44209,ICD10: G44209,Boolean,Medical
+problem_diagnosis_g44219,ICD10: G44219,Boolean,Medical
+problem_diagnosis_g4452,ICD10: G4452,Boolean,Medical
+problem_diagnosis_g459,ICD10: G459,Boolean,Medical
+problem_diagnosis_g4700,ICD10: G4700,Boolean,Medical
+problem_diagnosis_g4730,ICD10: G4730,Boolean,Medical
+problem_diagnosis_g4733,ICD10: G4733,Boolean,Medical
+problem_diagnosis_g4739,ICD10: G4739,Boolean,Medical
+problem_diagnosis_g500,ICD10: G500,Boolean,Medical
+problem_diagnosis_g5600,ICD10: G5600,Boolean,Medical
+problem_diagnosis_g5622,ICD10: G5622,Boolean,Medical
+problem_diagnosis_g5623,ICD10: G5623,Boolean,Medical
+problem_diagnosis_g589,ICD10: G589,Boolean,Medical
+problem_diagnosis_g603,ICD10: G603,Boolean,Medical
+problem_diagnosis_g608,ICD10: G608,Boolean,Medical
+problem_diagnosis_g609,ICD10: G609,Boolean,Medical
+problem_diagnosis_g619,ICD10: G619,Boolean,Medical
+problem_diagnosis_g620,ICD10: G620,Boolean,Medical
+problem_diagnosis_g809,ICD10: G809,Boolean,Medical
+problem_diagnosis_g8929,ICD10: G8929,Boolean,Medical
+problem_diagnosis_g894,ICD10: G894,Boolean,Medical
+problem_diagnosis_g933,ICD10: G933,Boolean,Medical
+problem_diagnosis_h00015,ICD10: H00015,Boolean,Medical
+problem_diagnosis_h00024,ICD10: H00024,Boolean,Medical
+problem_diagnosis_h01119,ICD10: H01119,Boolean,Medical
+problem_diagnosis_h02403,ICD10: H02403,Boolean,Medical
+problem_diagnosis_h02829,ICD10: H02829,Boolean,Medical
+problem_diagnosis_h10019,ICD10: H10019,Boolean,Medical
+problem_diagnosis_h1010,ICD10: H1010,Boolean,Medical
+problem_diagnosis_h1011,ICD10: H1011,Boolean,Medical
+problem_diagnosis_h10239,ICD10: H10239,Boolean,Medical
+problem_diagnosis_h1030,ICD10: H1030,Boolean,Medical
+problem_diagnosis_h1045,ICD10: H1045,Boolean,Medical
+problem_diagnosis_h109,ICD10: H109,Boolean,Medical
+problem_diagnosis_h16139,ICD10: H16139,Boolean,Medical
+problem_diagnosis_h35039,ICD10: H35039,Boolean,Medical
+problem_diagnosis_h3530,ICD10: H3530,Boolean,Medical
+problem_diagnosis_h40009,ICD10: H40009,Boolean,Medical
+problem_diagnosis_h4010x0,ICD10: H4010X0,Boolean,Medical
+problem_diagnosis_h5000,ICD10: H5000,Boolean,Medical
+problem_diagnosis_h519,ICD10: H519,Boolean,Medical
+problem_diagnosis_h5203,ICD10: H5203,Boolean,Medical
+problem_diagnosis_h5210,ICD10: H5210,Boolean,Medical
+problem_diagnosis_h5213,ICD10: H5213,Boolean,Medical
+problem_diagnosis_h527,ICD10: H527,Boolean,Medical
+problem_diagnosis_h5319,ICD10: H5319,Boolean,Medical
+problem_diagnosis_h538,ICD10: H538,Boolean,Medical
+problem_diagnosis_h578,ICD10: H578,Boolean,Medical
+problem_diagnosis_h579,ICD10: H579,Boolean,Medical
+problem_diagnosis_h6000,ICD10: H6000,Boolean,Medical
+problem_diagnosis_h60311,ICD10: H60311,Boolean,Medical
+problem_diagnosis_h60313,ICD10: H60313,Boolean,Medical
+problem_diagnosis_h60332,ICD10: H60332,Boolean,Medical
+problem_diagnosis_h60391,ICD10: H60391,Boolean,Medical
+problem_diagnosis_h6120,ICD10: H6120,Boolean,Medical
+problem_diagnosis_h6122,ICD10: H6122,Boolean,Medical
+problem_diagnosis_h6123,ICD10: H6123,Boolean,Medical
+problem_diagnosis_h6503,ICD10: H6503,Boolean,Medical
+problem_diagnosis_h65112,ICD10: H65112,Boolean,Medical
+problem_diagnosis_h66009,ICD10: H66009,Boolean,Medical
+problem_diagnosis_h6980,ICD10: H6980,Boolean,Medical
+problem_diagnosis_h6982,ICD10: H6982,Boolean,Medical
+problem_diagnosis_h8113,ICD10: H8113,Boolean,Medical
+problem_diagnosis_h8149,ICD10: H8149,Boolean,Medical
+problem_diagnosis_h902,ICD10: H902,Boolean,Medical
+problem_diagnosis_h906,ICD10: H906,Boolean,Medical
+problem_diagnosis_h9190,ICD10: H9190,Boolean,Medical
+problem_diagnosis_h9193,ICD10: H9193,Boolean,Medical
+problem_diagnosis_h9203,ICD10: H9203,Boolean,Medical
+problem_diagnosis_h9209,ICD10: H9209,Boolean,Medical
+problem_diagnosis_h9312,ICD10: H9312,Boolean,Medical
+problem_diagnosis_h938x9,ICD10: H938X9,Boolean,Medical
+problem_diagnosis_i071,ICD10: I071,Boolean,Medical
+problem_diagnosis_i10,ICD10: I10,Boolean,Medical
+problem_diagnosis_i119,ICD10: I119,Boolean,Medical
+problem_diagnosis_i120,ICD10: I120,Boolean,Medical
+problem_diagnosis_i150,ICD10: I150,Boolean,Medical
+problem_diagnosis_i201,ICD10: I201,Boolean,Medical
+problem_diagnosis_i219,ICD10: I219,Boolean,Medical
+problem_diagnosis_i2510,ICD10: I2510,Boolean,Medical
+problem_diagnosis_i25119,ICD10: I25119,Boolean,Medical
+problem_diagnosis_i2699,ICD10: I2699,Boolean,Medical
+problem_diagnosis_i340,ICD10: I340,Boolean,Medical
+problem_diagnosis_i361,ICD10: I361,Boolean,Medical
+problem_diagnosis_i471,ICD10: I471,Boolean,Medical
+problem_diagnosis_i480,ICD10: I480,Boolean,Medical
+problem_diagnosis_i482,ICD10: I482,Boolean,Medical
+problem_diagnosis_i4891,ICD10: I4891,Boolean,Medical
+problem_diagnosis_i4892,ICD10: I4892,Boolean,Medical
+problem_diagnosis_i498,ICD10: I498,Boolean,Medical
+problem_diagnosis_i499,ICD10: I499,Boolean,Medical
+problem_diagnosis_i509,ICD10: I509,Boolean,Medical
+problem_diagnosis_i639,ICD10: I639,Boolean,Medical
+problem_diagnosis_i6522,ICD10: I6522,Boolean,Medical
+problem_diagnosis_i6529,ICD10: I6529,Boolean,Medical
+problem_diagnosis_i679,ICD10: I679,Boolean,Medical
+problem_diagnosis_i69920,ICD10: I69920,Boolean,Medical
+problem_diagnosis_i70211,ICD10: I70211,Boolean,Medical
+problem_diagnosis_i7090,ICD10: I7090,Boolean,Medical
+problem_diagnosis_i7091,ICD10: I7091,Boolean,Medical
+problem_diagnosis_i7300,ICD10: I7300,Boolean,Medical
+problem_diagnosis_i739,ICD10: I739,Boolean,Medical
+problem_diagnosis_i798,ICD10: I798,Boolean,Medical
+problem_diagnosis_i82502,ICD10: I82502,Boolean,Medical
+problem_diagnosis_i8311,ICD10: I8311,Boolean,Medical
+problem_diagnosis_i83811,ICD10: I83811,Boolean,Medical
+problem_diagnosis_i8390,ICD10: I8390,Boolean,Medical
+problem_diagnosis_i8391,ICD10: I8391,Boolean,Medical
+problem_diagnosis_i872,ICD10: I872,Boolean,Medical
+problem_diagnosis_i890,ICD10: I890,Boolean,Medical
+problem_diagnosis_i951,ICD10: I951,Boolean,Medical
+problem_diagnosis_i97191,ICD10: I97191,Boolean,Medical
+problem_diagnosis_j00,ICD10: J00,Boolean,Medical
+problem_diagnosis_j0100,ICD10: J0100,Boolean,Medical
+problem_diagnosis_j0110,ICD10: J0110,Boolean,Medical
+problem_diagnosis_j0111,ICD10: J0111,Boolean,Medical
+problem_diagnosis_j0140,ICD10: J0140,Boolean,Medical
+problem_diagnosis_j0180,ICD10: J0180,Boolean,Medical
+problem_diagnosis_j0190,ICD10: J0190,Boolean,Medical
+problem_diagnosis_j0190 00,ICD10: J0190 00,Boolean,Medical
+problem_diagnosis_j020,ICD10: J020,Boolean,Medical
+problem_diagnosis_j028,ICD10: J028,Boolean,Medical
+problem_diagnosis_j029,ICD10: J029,Boolean,Medical
+problem_diagnosis_j0390,ICD10: J0390,Boolean,Medical
+problem_diagnosis_j050,ICD10: J050,Boolean,Medical
+problem_diagnosis_j069,ICD10: J069,Boolean,Medical
+problem_diagnosis_j09x,ICD10: J09X,Boolean,Medical
+problem_diagnosis_j09x2,ICD10: J09X2,Boolean,Medical
+problem_diagnosis_j101,ICD10: J101,Boolean,Medical
+problem_diagnosis_j112,ICD10: J112,Boolean,Medical
+problem_diagnosis_j1181,ICD10: J1181,Boolean,Medical
+problem_diagnosis_j1189,ICD10: J1189,Boolean,Medical
+problem_diagnosis_j1282,ICD10: J1282,Boolean,Medical
+problem_diagnosis_j1289,ICD10: J1289,Boolean,Medical
+problem_diagnosis_j158,ICD10: J158,Boolean,Medical
+problem_diagnosis_j159,ICD10: J159,Boolean,Medical
+problem_diagnosis_j189,ICD10: J189,Boolean,Medical
+problem_diagnosis_j208,ICD10: J208,Boolean,Medical
+problem_diagnosis_j209,ICD10: J209,Boolean,Medical
+problem_diagnosis_j210,ICD10: J210,Boolean,Medical
+problem_diagnosis_j218,ICD10: J218,Boolean,Medical
+problem_diagnosis_j219,ICD10: J219,Boolean,Medical
+problem_diagnosis_j300,ICD10: J300,Boolean,Medical
+problem_diagnosis_j301,ICD10: J301,Boolean,Medical
+problem_diagnosis_j302,ICD10: J302,Boolean,Medical
+problem_diagnosis_j308,ICD10: J308,Boolean,Medical
+problem_diagnosis_j309,ICD10: J309,Boolean,Medical
+problem_diagnosis_j310,ICD10: J310,Boolean,Medical
+problem_diagnosis_j329,ICD10: J329,Boolean,Medical
+problem_diagnosis_j340,ICD10: J340,Boolean,Medical
+problem_diagnosis_j343,ICD10: J343,Boolean,Medical
+problem_diagnosis_j352,ICD10: J352,Boolean,Medical
+problem_diagnosis_j36,ICD10: J36,Boolean,Medical
+problem_diagnosis_j40,ICD10: J40,Boolean,Medical
+problem_diagnosis_j440,ICD10: J440,Boolean,Medical
+problem_diagnosis_j441,ICD10: J441,Boolean,Medical
+problem_diagnosis_j449,ICD10: J449,Boolean,Medical
+problem_diagnosis_j4520,ICD10: J4520,Boolean,Medical
+problem_diagnosis_j4540,ICD10: J4540,Boolean,Medical
+problem_diagnosis_j45909,ICD10: J45909,Boolean,Medical
+problem_diagnosis_j849,ICD10: J849,Boolean,Medical
+problem_diagnosis_j9383,ICD10: J9383,Boolean,Medical
+problem_diagnosis_j9620,ICD10: J9620,Boolean,Medical
+problem_diagnosis_j9621,ICD10: J9621,Boolean,Medical
+problem_diagnosis_j982,ICD10: J982,Boolean,Medical
+problem_diagnosis_j984,ICD10: J984,Boolean,Medical
+problem_diagnosis_k044,ICD10: K044,Boolean,Medical
+problem_diagnosis_k0501,ICD10: K0501,Boolean,Medical
+problem_diagnosis_k122,ICD10: K122,Boolean,Medical
+problem_diagnosis_k200,ICD10: K200,Boolean,Medical
+problem_diagnosis_k210,ICD10: K210,Boolean,Medical
+problem_diagnosis_k219,ICD10: K219,Boolean,Medical
+problem_diagnosis_k219 00,ICD10: K219 00,Boolean,Medical
+problem_diagnosis_k2270,ICD10: K2270,Boolean,Medical
+problem_diagnosis_k277,ICD10: K277,Boolean,Medical
+problem_diagnosis_k2900,ICD10: K2900,Boolean,Medical
+problem_diagnosis_k2970,ICD10: K2970,Boolean,Medical
+problem_diagnosis_k30,ICD10: K30,Boolean,Medical
+problem_diagnosis_k319,ICD10: K319,Boolean,Medical
+problem_diagnosis_k388,ICD10: K388,Boolean,Medical
+problem_diagnosis_k4091,ICD10: K4091,Boolean,Medical
+problem_diagnosis_k429,ICD10: K429,Boolean,Medical
+problem_diagnosis_k449,ICD10: K449,Boolean,Medical
+problem_diagnosis_k5010,ICD10: K5010,Boolean,Medical
+problem_diagnosis_k5190,ICD10: K5190,Boolean,Medical
+problem_diagnosis_k522,ICD10: K522,Boolean,Medical
+problem_diagnosis_k5289,ICD10: K5289,Boolean,Medical
+problem_diagnosis_k529,ICD10: K529,Boolean,Medical
+problem_diagnosis_k5649,ICD10: K5649,Boolean,Medical
+problem_diagnosis_k5730,ICD10: K5730,Boolean,Medical
+problem_diagnosis_k5732,ICD10: K5732,Boolean,Medical
+problem_diagnosis_k5793,ICD10: K5793,Boolean,Medical
+problem_diagnosis_k580,ICD10: K580,Boolean,Medical
+problem_diagnosis_k588,ICD10: K588,Boolean,Medical
+problem_diagnosis_k589,ICD10: K589,Boolean,Medical
+problem_diagnosis_k5900,ICD10: K5900,Boolean,Medical
+problem_diagnosis_k5901,ICD10: K5901,Boolean,Medical
+problem_diagnosis_k5903,ICD10: K5903,Boolean,Medical
+problem_diagnosis_k591,ICD10: K591,Boolean,Medical
+problem_diagnosis_k635,ICD10: K635,Boolean,Medical
+problem_diagnosis_k651,ICD10: K651,Boolean,Medical
+problem_diagnosis_k7200,ICD10: K7200,Boolean,Medical
+problem_diagnosis_k760,ICD10: K760,Boolean,Medical
+problem_diagnosis_k766,ICD10: K766,Boolean,Medical
+problem_diagnosis_k8050,ICD10: K8050,Boolean,Medical
+problem_diagnosis_k8500,ICD10: K8500,Boolean,Medical
+problem_diagnosis_k900,ICD10: K900,Boolean,Medical
+problem_diagnosis_k921,ICD10: K921,Boolean,Medical
+problem_diagnosis_k9289,ICD10: K9289,Boolean,Medical
+problem_diagnosis_l0100,ICD10: L0100,Boolean,Medical
+problem_diagnosis_l0212,ICD10: L0212,Boolean,Medical
+problem_diagnosis_l02212,ICD10: L02212,Boolean,Medical
+problem_diagnosis_l02413,ICD10: L02413,Boolean,Medical
+problem_diagnosis_l02429,ICD10: L02429,Boolean,Medical
+problem_diagnosis_l02821,ICD10: L02821,Boolean,Medical
+problem_diagnosis_l03031,ICD10: L03031,Boolean,Medical
+problem_diagnosis_l03115,ICD10: L03115,Boolean,Medical
+problem_diagnosis_l03119,ICD10: L03119,Boolean,Medical
+problem_diagnosis_l03319,ICD10: L03319,Boolean,Medical
+problem_diagnosis_l03818,ICD10: L03818,Boolean,Medical
+problem_diagnosis_l0390,ICD10: L0390,Boolean,Medical
+problem_diagnosis_l0391,ICD10: L0391,Boolean,Medical
+problem_diagnosis_l0889,ICD10: L0889,Boolean,Medical
+problem_diagnosis_l110,ICD10: L110,Boolean,Medical
+problem_diagnosis_l200,ICD10: L200,Boolean,Medical
+problem_diagnosis_l2082,ICD10: L2082,Boolean,Medical
+problem_diagnosis_l209,ICD10: L209,Boolean,Medical
+problem_diagnosis_l22,ICD10: L22,Boolean,Medical
+problem_diagnosis_l255,ICD10: L255,Boolean,Medical
+problem_diagnosis_l259,ICD10: L259,Boolean,Medical
+problem_diagnosis_l272,ICD10: L272,Boolean,Medical
+problem_diagnosis_l282,ICD10: L282,Boolean,Medical
+problem_diagnosis_l299,ICD10: L299,Boolean,Medical
+problem_diagnosis_l308,ICD10: L308,Boolean,Medical
+problem_diagnosis_l309,ICD10: L309,Boolean,Medical
+problem_diagnosis_l309 00,ICD10: L309 00,Boolean,Medical
+problem_diagnosis_l4054,ICD10: L4054,Boolean,Medical
+problem_diagnosis_l408,ICD10: L408,Boolean,Medical
+problem_diagnosis_l439,ICD10: L439,Boolean,Medical
+problem_diagnosis_l551,ICD10: L551,Boolean,Medical
+problem_diagnosis_l570,ICD10: L570,Boolean,Medical
+problem_diagnosis_l600,ICD10: L600,Boolean,Medical
+problem_diagnosis_l649,ICD10: L649,Boolean,Medical
+problem_diagnosis_l659,ICD10: L659,Boolean,Medical
+problem_diagnosis_l709,ICD10: L709,Boolean,Medical
+problem_diagnosis_l710,ICD10: L710,Boolean,Medical
+problem_diagnosis_l719,ICD10: L719,Boolean,Medical
+problem_diagnosis_l723,ICD10: L723,Boolean,Medical
+problem_diagnosis_l740,ICD10: L740,Boolean,Medical
+problem_diagnosis_l819,ICD10: L819,Boolean,Medical
+problem_diagnosis_l820,ICD10: L820,Boolean,Medical
+problem_diagnosis_l821,ICD10: L821,Boolean,Medical
+problem_diagnosis_l83,ICD10: L83,Boolean,Medical
+problem_diagnosis_l89159,ICD10: L89159,Boolean,Medical
+problem_diagnosis_l909,ICD10: L909,Boolean,Medical
+problem_diagnosis_l97901,ICD10: L97901,Boolean,Medical
+problem_diagnosis_l97911,ICD10: L97911,Boolean,Medical
+problem_diagnosis_l98419,ICD10: L98419,Boolean,Medical
+problem_diagnosis_l989,ICD10: L989,Boolean,Medical
+problem_diagnosis_m009,ICD10: M009,Boolean,Medical
+problem_diagnosis_m1000,ICD10: M1000,Boolean,Medical
+problem_diagnosis_m1040,ICD10: M1040,Boolean,Medical
+problem_diagnosis_m109,ICD10: M109,Boolean,Medical
+problem_diagnosis_m12819,ICD10: M12819,Boolean,Medical
+problem_diagnosis_m129,ICD10: M129,Boolean,Medical
+problem_diagnosis_m13819,ICD10: M13819,Boolean,Medical
+problem_diagnosis_m13849,ICD10: M13849,Boolean,Medical
+problem_diagnosis_m150,ICD10: M150,Boolean,Medical
+problem_diagnosis_m159,ICD10: M159,Boolean,Medical
+problem_diagnosis_m160,ICD10: M160,Boolean,Medical
+problem_diagnosis_m1610,ICD10: M1610,Boolean,Medical
+problem_diagnosis_m1611,ICD10: M1611,Boolean,Medical
+problem_diagnosis_m170,ICD10: M170,Boolean,Medical
+problem_diagnosis_m1710,ICD10: M1710,Boolean,Medical
+problem_diagnosis_m1711,ICD10: M1711,Boolean,Medical
+problem_diagnosis_m1712,ICD10: M1712,Boolean,Medical
+problem_diagnosis_m19012,ICD10: M19012,Boolean,Medical
+problem_diagnosis_m19019,ICD10: M19019,Boolean,Medical
+problem_diagnosis_m1990,ICD10: M1990,Boolean,Medical
+problem_diagnosis_m20012,ICD10: M20012,Boolean,Medical
+problem_diagnosis_m2012,ICD10: M2012,Boolean,Medical
+problem_diagnosis_m2142,ICD10: M2142,Boolean,Medical
+problem_diagnosis_m216x9,ICD10: M216X9,Boolean,Medical
+problem_diagnosis_m21969,ICD10: M21969,Boolean,Medical
+problem_diagnosis_m23009,ICD10: M23009,Boolean,Medical
+problem_diagnosis_m2350,ICD10: M2350,Boolean,Medical
+problem_diagnosis_m2540,ICD10: M2540,Boolean,Medical
+problem_diagnosis_m25473,ICD10: M25473,Boolean,Medical
+problem_diagnosis_m2550,ICD10: M2550,Boolean,Medical
+problem_diagnosis_m25511,ICD10: M25511,Boolean,Medical
+problem_diagnosis_m25512,ICD10: M25512,Boolean,Medical
+problem_diagnosis_m25519,ICD10: M25519,Boolean,Medical
+problem_diagnosis_m25529,ICD10: M25529,Boolean,Medical
+problem_diagnosis_m25532,ICD10: M25532,Boolean,Medical
+problem_diagnosis_m25539,ICD10: M25539,Boolean,Medical
+problem_diagnosis_m25541,ICD10: M25541,Boolean,Medical
+problem_diagnosis_m25551,ICD10: M25551,Boolean,Medical
+problem_diagnosis_m25552,ICD10: M25552,Boolean,Medical
+problem_diagnosis_m25559,ICD10: M25559,Boolean,Medical
+problem_diagnosis_m25561,ICD10: M25561,Boolean,Medical
+problem_diagnosis_m25562,ICD10: M25562,Boolean,Medical
+problem_diagnosis_m25569,ICD10: M25569,Boolean,Medical
+problem_diagnosis_m25579,ICD10: M25579,Boolean,Medical
+problem_diagnosis_m2660,ICD10: M2660,Boolean,Medical
+problem_diagnosis_m26601,ICD10: M26601,Boolean,Medical
+problem_diagnosis_m2662,ICD10: M2662,Boolean,Medical
+problem_diagnosis_m272,ICD10: M272,Boolean,Medical
+problem_diagnosis_m316,ICD10: M316,Boolean,Medical
+problem_diagnosis_m353,ICD10: M353,Boolean,Medical
+problem_diagnosis_m40209,ICD10: M40209,Boolean,Medical
+problem_diagnosis_m4327,ICD10: M4327,Boolean,Medical
+problem_diagnosis_m461,ICD10: M461,Boolean,Medical
+problem_diagnosis_m47812,ICD10: M47812,Boolean,Medical
+problem_diagnosis_m47813,ICD10: M47813,Boolean,Medical
+problem_diagnosis_m4800,ICD10: M4800,Boolean,Medical
+problem_diagnosis_m4806,ICD10: M4806,Boolean,Medical
+problem_diagnosis_m4840xa,ICD10: M4840XA,Boolean,Medical
+problem_diagnosis_m4854xd,ICD10: M4854XD,Boolean,Medical
+problem_diagnosis_m5020,ICD10: M5020,Boolean,Medical
+problem_diagnosis_m5126,ICD10: M5126,Boolean,Medical
+problem_diagnosis_m5134,ICD10: M5134,Boolean,Medical
+problem_diagnosis_m5136,ICD10: M5136,Boolean,Medical
+problem_diagnosis_m5137,ICD10: M5137,Boolean,Medical
+problem_diagnosis_m5388,ICD10: M5388,Boolean,Medical
+problem_diagnosis_m5400,ICD10: M5400,Boolean,Medical
+problem_diagnosis_m5408,ICD10: M5408,Boolean,Medical
+problem_diagnosis_m5412,ICD10: M5412,Boolean,Medical
+problem_diagnosis_m5416,ICD10: M5416,Boolean,Medical
+problem_diagnosis_m5417,ICD10: M5417,Boolean,Medical
+problem_diagnosis_m542,ICD10: M542,Boolean,Medical
+problem_diagnosis_m5430,ICD10: M5430,Boolean,Medical
+problem_diagnosis_m545,ICD10: M545,Boolean,Medical
+problem_diagnosis_m546,ICD10: M546,Boolean,Medical
+problem_diagnosis_m5489,ICD10: M5489,Boolean,Medical
+problem_diagnosis_m549,ICD10: M549,Boolean,Medical
+problem_diagnosis_m609,ICD10: M609,Boolean,Medical
+problem_diagnosis_m6249,ICD10: M6249,Boolean,Medical
+problem_diagnosis_m62838,ICD10: M62838,Boolean,Medical
+problem_diagnosis_m6289,ICD10: M6289,Boolean,Medical
+problem_diagnosis_m65311,ICD10: M65311,Boolean,Medical
+problem_diagnosis_m65811,ICD10: M65811,Boolean,Medical
+problem_diagnosis_m6700,ICD10: M6700,Boolean,Medical
+problem_diagnosis_m67431,ICD10: M67431,Boolean,Medical
+problem_diagnosis_m6780,ICD10: M6780,Boolean,Medical
+problem_diagnosis_m67874,ICD10: M67874,Boolean,Medical
+problem_diagnosis_m7020,ICD10: M7020,Boolean,Medical
+problem_diagnosis_m7051,ICD10: M7051,Boolean,Medical
+problem_diagnosis_m7060,ICD10: M7060,Boolean,Medical
+problem_diagnosis_m7062,ICD10: M7062,Boolean,Medical
+problem_diagnosis_m7130,ICD10: M7130,Boolean,Medical
+problem_diagnosis_m720,ICD10: M720,Boolean,Medical
+problem_diagnosis_m722,ICD10: M722,Boolean,Medical
+problem_diagnosis_m75102,ICD10: M75102,Boolean,Medical
+problem_diagnosis_m75110,ICD10: M75110,Boolean,Medical
+problem_diagnosis_m7552,ICD10: M7552,Boolean,Medical
+problem_diagnosis_m7710,ICD10: M7710,Boolean,Medical
+problem_diagnosis_m7712,ICD10: M7712,Boolean,Medical
+problem_diagnosis_m7730,ICD10: M7730,Boolean,Medical
+problem_diagnosis_m795,ICD10: M795,Boolean,Medical
+problem_diagnosis_m79605,ICD10: M79605,Boolean,Medical
+problem_diagnosis_m79609,ICD10: M79609,Boolean,Medical
+problem_diagnosis_m79645,ICD10: M79645,Boolean,Medical
+problem_diagnosis_m79669,ICD10: M79669,Boolean,Medical
+problem_diagnosis_m79671,ICD10: M79671,Boolean,Medical
+problem_diagnosis_m79672,ICD10: M79672,Boolean,Medical
+problem_diagnosis_m7989,ICD10: M7989,Boolean,Medical
+problem_diagnosis_m810,ICD10: M810,Boolean,Medical
+problem_diagnosis_m818,ICD10: M818,Boolean,Medical
+problem_diagnosis_m8430xs,ICD10: M8430XS,Boolean,Medical
+problem_diagnosis_m84342d,ICD10: M84342D,Boolean,Medical
+problem_diagnosis_m84375d,ICD10: M84375D,Boolean,Medical
+problem_diagnosis_m8580,ICD10: M8580,Boolean,Medical
+problem_diagnosis_m8588,ICD10: M8588,Boolean,Medical
+problem_diagnosis_m859,ICD10: M859,Boolean,Medical
+problem_diagnosis_m899,ICD10: M899,Boolean,Medical
+problem_diagnosis_m9390,ICD10: M9390,Boolean,Medical
+problem_diagnosis_n029,ICD10: N029,Boolean,Medical
+problem_diagnosis_n179,ICD10: N179,Boolean,Medical
+problem_diagnosis_n182,ICD10: N182,Boolean,Medical
+problem_diagnosis_n183,ICD10: N183,Boolean,Medical
+problem_diagnosis_n186,ICD10: N186,Boolean,Medical
+problem_diagnosis_n200,ICD10: N200,Boolean,Medical
+problem_diagnosis_n289,ICD10: N289,Boolean,Medical
+problem_diagnosis_n3000,ICD10: N3000,Boolean,Medical
+problem_diagnosis_n3001,ICD10: N3001,Boolean,Medical
+problem_diagnosis_n3020,ICD10: N3020,Boolean,Medical
+problem_diagnosis_n390,ICD10: N390,Boolean,Medical
+problem_diagnosis_n3941,ICD10: N3941,Boolean,Medical
+problem_diagnosis_n3944,ICD10: N3944,Boolean,Medical
+problem_diagnosis_n3946,ICD10: N3946,Boolean,Medical
+problem_diagnosis_n39498,ICD10: N39498,Boolean,Medical
+problem_diagnosis_n400,ICD10: N400,Boolean,Medical
+problem_diagnosis_n401,ICD10: N401,Boolean,Medical
+problem_diagnosis_n402,ICD10: N402,Boolean,Medical
+problem_diagnosis_n411,ICD10: N411,Boolean,Medical
+problem_diagnosis_n413,ICD10: N413,Boolean,Medical
+problem_diagnosis_n453,ICD10: N453,Boolean,Medical
+problem_diagnosis_n470,ICD10: N470,Boolean,Medical
+problem_diagnosis_n476,ICD10: N476,Boolean,Medical
+problem_diagnosis_n481,ICD10: N481,Boolean,Medical
+problem_diagnosis_n485,ICD10: N485,Boolean,Medical
+problem_diagnosis_n503,ICD10: N503,Boolean,Medical
+problem_diagnosis_n508,ICD10: N508,Boolean,Medical
+problem_diagnosis_n509,ICD10: N509,Boolean,Medical
+problem_diagnosis_n5201,ICD10: N5201,Boolean,Medical
+problem_diagnosis_n521,ICD10: N521,Boolean,Medical
+problem_diagnosis_n529,ICD10: N529,Boolean,Medical
+problem_diagnosis_n6009,ICD10: N6009,Boolean,Medical
+problem_diagnosis_n6011,ICD10: N6011,Boolean,Medical
+problem_diagnosis_n62,ICD10: N62,Boolean,Medical
+problem_diagnosis_n63,ICD10: N63,Boolean,Medical
+problem_diagnosis_n644,ICD10: N644,Boolean,Medical
+problem_diagnosis_n760,ICD10: N760,Boolean,Medical
+problem_diagnosis_n808,ICD10: N808,Boolean,Medical
+problem_diagnosis_n8111,ICD10: N8111,Boolean,Medical
+problem_diagnosis_n8329,ICD10: N8329,Boolean,Medical
+problem_diagnosis_n879,ICD10: N879,Boolean,Medical
+problem_diagnosis_n898,ICD10: N898,Boolean,Medical
+problem_diagnosis_n912,ICD10: N912,Boolean,Medical
+problem_diagnosis_n920,ICD10: N920,Boolean,Medical
+problem_diagnosis_n921,ICD10: N921,Boolean,Medical
+problem_diagnosis_n925,ICD10: N925,Boolean,Medical
+problem_diagnosis_n926,ICD10: N926,Boolean,Medical
+problem_diagnosis_n951,ICD10: N951,Boolean,Medical
+problem_diagnosis_n952,ICD10: N952,Boolean,Medical
+problem_diagnosis_n958,ICD10: N958,Boolean,Medical
+problem_diagnosis_o0930,ICD10: O0930,Boolean,Medical
+problem_diagnosis_o09891,ICD10: O09891,Boolean,Medical
+problem_diagnosis_o0990,ICD10: O0990,Boolean,Medical
+problem_diagnosis_o10011,ICD10: O10011,Boolean,Medical
+problem_diagnosis_o2241,ICD10: O2241,Boolean,Medical
+problem_diagnosis_o2391,ICD10: O2391,Boolean,Medical
+problem_diagnosis_o3410,ICD10: O3410,Boolean,Medical
+problem_diagnosis_o6002,ICD10: O6002,Boolean,Medical
+problem_diagnosis_o99013,ICD10: O99013,Boolean,Medical
+problem_diagnosis_o99345,ICD10: O99345,Boolean,Medical
+problem_diagnosis_p292,ICD10: P292,Boolean,Medical
+problem_diagnosis_p779,ICD10: P779,Boolean,Medical
+problem_diagnosis_p7883,ICD10: P7883,Boolean,Medical
+problem_diagnosis_p90,ICD10: P90,Boolean,Medical
+problem_diagnosis_p925,ICD10: P925,Boolean,Medical
+problem_diagnosis_q794,ICD10: Q794,Boolean,Medical
+problem_diagnosis_q821,ICD10: Q821,Boolean,Medical
+problem_diagnosis_r000,ICD10: R000,Boolean,Medical
+problem_diagnosis_r001,ICD10: R001,Boolean,Medical
+problem_diagnosis_r002,ICD10: R002,Boolean,Medical
+problem_diagnosis_r009,ICD10: R009,Boolean,Medical
+problem_diagnosis_r011,ICD10: R011,Boolean,Medical
+problem_diagnosis_r012,ICD10: R012,Boolean,Medical
+problem_diagnosis_r030,ICD10: R030,Boolean,Medical
+problem_diagnosis_r031,ICD10: R031,Boolean,Medical
+problem_diagnosis_r040,ICD10: R040,Boolean,Medical
+problem_diagnosis_r042,ICD10: R042,Boolean,Medical
+problem_diagnosis_r049,ICD10: R049,Boolean,Medical
+problem_diagnosis_r05,ICD10: R05,Boolean,Medical
+problem_diagnosis_r058,ICD10: R058,Boolean,Medical
+problem_diagnosis_r059,ICD10: R059,Boolean,Medical
+problem_diagnosis_r060,ICD10: R060,Boolean,Medical
+problem_diagnosis_r0600,ICD10: R0600,Boolean,Medical
+problem_diagnosis_r0602,ICD10: R0602,Boolean,Medical
+problem_diagnosis_r0609,ICD10: R0609,Boolean,Medical
+problem_diagnosis_r062,ICD10: R062,Boolean,Medical
+problem_diagnosis_r070,ICD10: R070,Boolean,Medical
+problem_diagnosis_r072,ICD10: R072,Boolean,Medical
+problem_diagnosis_r0782,ICD10: R0782,Boolean,Medical
+problem_diagnosis_r079,ICD10: R079,Boolean,Medical
+problem_diagnosis_r091,ICD10: R091,Boolean,Medical
+problem_diagnosis_r0989,ICD10: R0989,Boolean,Medical
+problem_diagnosis_r1010,ICD10: R1010,Boolean,Medical
+problem_diagnosis_r1011,ICD10: R1011,Boolean,Medical
+problem_diagnosis_r1013,ICD10: R1013,Boolean,Medical
+problem_diagnosis_r102,ICD10: R102,Boolean,Medical
+problem_diagnosis_r1031,ICD10: R1031,Boolean,Medical
+problem_diagnosis_r1084,ICD10: R1084,Boolean,Medical
+problem_diagnosis_r109,ICD10: R109,Boolean,Medical
+problem_diagnosis_r110,ICD10: R110,Boolean,Medical
+problem_diagnosis_r1110,ICD10: R1110,Boolean,Medical
+problem_diagnosis_r1111,ICD10: R1111,Boolean,Medical
+problem_diagnosis_r1112,ICD10: R1112,Boolean,Medical
+problem_diagnosis_r112,ICD10: R112,Boolean,Medical
+problem_diagnosis_r12,ICD10: R12,Boolean,Medical
+problem_diagnosis_r1314,ICD10: R1314,Boolean,Medical
+problem_diagnosis_r1319,ICD10: R1319,Boolean,Medical
+problem_diagnosis_r1900,ICD10: R1900,Boolean,Medical
+problem_diagnosis_r194,ICD10: R194,Boolean,Medical
+problem_diagnosis_r197,ICD10: R197,Boolean,Medical
+problem_diagnosis_r200,ICD10: R200,Boolean,Medical
+problem_diagnosis_r201,ICD10: R201,Boolean,Medical
+problem_diagnosis_r202,ICD10: R202,Boolean,Medical
+problem_diagnosis_r209,ICD10: R209,Boolean,Medical
+problem_diagnosis_r21,ICD10: R21,Boolean,Medical
+problem_diagnosis_r229,ICD10: R229,Boolean,Medical
+problem_diagnosis_r233,ICD10: R233,Boolean,Medical
+problem_diagnosis_r2689,ICD10: R2689,Boolean,Medical
+problem_diagnosis_r29818,ICD10: R29818,Boolean,Medical
+problem_diagnosis_r29898,ICD10: R29898,Boolean,Medical
+problem_diagnosis_r300,ICD10: R300,Boolean,Medical
+problem_diagnosis_r311,ICD10: R311,Boolean,Medical
+problem_diagnosis_r319,ICD10: R319,Boolean,Medical
+problem_diagnosis_r339,ICD10: R339,Boolean,Medical
+problem_diagnosis_r350,ICD10: R350,Boolean,Medical
+problem_diagnosis_r369,ICD10: R369,Boolean,Medical
+problem_diagnosis_r3915,ICD10: R3915,Boolean,Medical
+problem_diagnosis_r412,ICD10: R412,Boolean,Medical
+problem_diagnosis_r413,ICD10: R413,Boolean,Medical
+problem_diagnosis_r4189,ICD10: R4189,Boolean,Medical
+problem_diagnosis_r42,ICD10: R42,Boolean,Medical
+problem_diagnosis_r441,ICD10: R441,Boolean,Medical
+problem_diagnosis_r448,ICD10: R448,Boolean,Medical
+problem_diagnosis_r4702,ICD10: R4702,Boolean,Medical
+problem_diagnosis_r491,ICD10: R491,Boolean,Medical
+problem_diagnosis_r498,ICD10: R498,Boolean,Medical
+problem_diagnosis_r502,ICD10: R502,Boolean,Medical
+problem_diagnosis_r5081,ICD10: R5081,Boolean,Medical
+problem_diagnosis_r509,ICD10: R509,Boolean,Medical
+problem_diagnosis_r51,ICD10: R51,Boolean,Medical
+problem_diagnosis_r519,ICD10: R519,Boolean,Medical
+problem_diagnosis_r52,ICD10: R52,Boolean,Medical
+problem_diagnosis_r5382,ICD10: R5382,Boolean,Medical
+problem_diagnosis_r5383,ICD10: R5383,Boolean,Medical
+problem_diagnosis_r55,ICD10: R55,Boolean,Medical
+problem_diagnosis_r569,ICD10: R569,Boolean,Medical
+problem_diagnosis_r599,ICD10: R599,Boolean,Medical
+problem_diagnosis_r600,ICD10: R600,Boolean,Medical
+problem_diagnosis_r609,ICD10: R609,Boolean,Medical
+problem_diagnosis_r6252,ICD10: R6252,Boolean,Medical
+problem_diagnosis_r630,ICD10: R630,Boolean,Medical
+problem_diagnosis_r634,ICD10: R634,Boolean,Medical
+problem_diagnosis_r635,ICD10: R635,Boolean,Medical
+problem_diagnosis_r6889,ICD10: R6889,Boolean,Medical
+problem_diagnosis_r700,ICD10: R700,Boolean,Medical
+problem_diagnosis_r7301,ICD10: R7301,Boolean,Medical
+problem_diagnosis_r7303,ICD10: R7303,Boolean,Medical
+problem_diagnosis_r7309,ICD10: R7309,Boolean,Medical
+problem_diagnosis_r739,ICD10: R739,Boolean,Medical
+problem_diagnosis_r740,ICD10: R740,Boolean,Medical
+problem_diagnosis_r748,ICD10: R748,Boolean,Medical
+problem_diagnosis_r749,ICD10: R749,Boolean,Medical
+problem_diagnosis_r760,ICD10: R760,Boolean,Medical
+problem_diagnosis_r7611,ICD10: R7611,Boolean,Medical
+problem_diagnosis_r778,ICD10: R778,Boolean,Medical
+problem_diagnosis_r7889,ICD10: R7889,Boolean,Medical
+problem_diagnosis_r7989,ICD10: R7989,Boolean,Medical
+problem_diagnosis_r809,ICD10: R809,Boolean,Medical
+problem_diagnosis_r825,ICD10: R825,Boolean,Medical
+problem_diagnosis_r928,ICD10: R928,Boolean,Medical
+problem_diagnosis_r94120,ICD10: R94120,Boolean,Medical
+problem_diagnosis_r9439,ICD10: R9439,Boolean,Medical
+problem_diagnosis_r945,ICD10: R945,Boolean,Medical
+problem_diagnosis_r946,ICD10: R946,Boolean,Medical
+problem_diagnosis_r972,ICD10: R972,Boolean,Medical
+problem_diagnosis_r9720,ICD10: R9720,Boolean,Medical
+problem_diagnosis_s0002xa,ICD10: S0002XA,Boolean,Medical
+problem_diagnosis_s01511a,ICD10: S01511A,Boolean,Medical
+problem_diagnosis_s0191xa,ICD10: S0191XA,Boolean,Medical
+problem_diagnosis_s0990xs,ICD10: S0990XS,Boolean,Medical
+problem_diagnosis_s0993xa,ICD10: S0993XA,Boolean,Medical
+problem_diagnosis_s129xxa,ICD10: S129XXA,Boolean,Medical
+problem_diagnosis_s20119a,ICD10: S20119A,Boolean,Medical
+problem_diagnosis_s20211a,ICD10: S20211A,Boolean,Medical
+problem_diagnosis_s21209a,ICD10: S21209A,Boolean,Medical
+problem_diagnosis_s298xxa,ICD10: S298XXA,Boolean,Medical
+problem_diagnosis_s31000a,ICD10: S31000A,Boolean,Medical
+problem_diagnosis_s40022a,ICD10: S40022A,Boolean,Medical
+problem_diagnosis_s40022d,ICD10: S40022D,Boolean,Medical
+problem_diagnosis_s41109a,ICD10: S41109A,Boolean,Medical
+problem_diagnosis_s42009a,ICD10: S42009A,Boolean,Medical
+problem_diagnosis_s42102d,ICD10: S42102D,Boolean,Medical
+problem_diagnosis_s42301d,ICD10: S42301D,Boolean,Medical
+problem_diagnosis_s42302a,ICD10: S42302A,Boolean,Medical
+problem_diagnosis_s43422a,ICD10: S43422A,Boolean,Medical
+problem_diagnosis_s46812a,ICD10: S46812A,Boolean,Medical
+problem_diagnosis_s5002xa,ICD10: S5002XA,Boolean,Medical
+problem_diagnosis_s52501a,ICD10: S52501A,Boolean,Medical
+problem_diagnosis_s52509a,ICD10: S52509A,Boolean,Medical
+problem_diagnosis_s6000xa,ICD10: S6000XA,Boolean,Medical
+problem_diagnosis_s60219a,ICD10: S60219A,Boolean,Medical
+problem_diagnosis_s60229a,ICD10: S60229A,Boolean,Medical
+problem_diagnosis_s61209a,ICD10: S61209A,Boolean,Medical
+problem_diagnosis_s61213a,ICD10: S61213A,Boolean,Medical
+problem_diagnosis_s61401a,ICD10: S61401A,Boolean,Medical
+problem_diagnosis_s61412a,ICD10: S61412A,Boolean,Medical
+problem_diagnosis_s62309a,ICD10: S62309A,Boolean,Medical
+problem_diagnosis_s62329a,ICD10: S62329A,Boolean,Medical
+problem_diagnosis_s62513a,ICD10: S62513A,Boolean,Medical
+problem_diagnosis_s63629a,ICD10: S63629A,Boolean,Medical
+problem_diagnosis_s7012xa,ICD10: S7012XA,Boolean,Medical
+problem_diagnosis_s72001a,ICD10: S72001A,Boolean,Medical
+problem_diagnosis_s72002d,ICD10: S72002D,Boolean,Medical
+problem_diagnosis_s72009a,ICD10: S72009A,Boolean,Medical
+problem_diagnosis_s8002xa,ICD10: S8002XA,Boolean,Medical
+problem_diagnosis_s80211a,ICD10: S80211A,Boolean,Medical
+problem_diagnosis_s80862a,ICD10: S80862A,Boolean,Medical
+problem_diagnosis_s81009a,ICD10: S81009A,Boolean,Medical
+problem_diagnosis_s81812a,ICD10: S81812A,Boolean,Medical
+problem_diagnosis_s82202d,ICD10: S82202D,Boolean,Medical
+problem_diagnosis_s82892d,ICD10: S82892D,Boolean,Medical
+problem_diagnosis_s8390xa,ICD10: S8390XA,Boolean,Medical
+problem_diagnosis_s8391xa,ICD10: S8391XA,Boolean,Medical
+problem_diagnosis_s8990xd,ICD10: S8990XD,Boolean,Medical
+problem_diagnosis_s9000xa,ICD10: S9000XA,Boolean,Medical
+problem_diagnosis_s90453a,ICD10: S90453A,Boolean,Medical
+problem_diagnosis_s93401a,ICD10: S93401A,Boolean,Medical
+problem_diagnosis_s93402a,ICD10: S93402A,Boolean,Medical
+problem_diagnosis_s93402s,ICD10: S93402S,Boolean,Medical
+problem_diagnosis_s93492a,ICD10: S93492A,Boolean,Medical
+problem_diagnosis_s93699a,ICD10: S93699A,Boolean,Medical
+problem_diagnosis_t07,ICD10: T07,Boolean,Medical
+problem_diagnosis_t1490xa,ICD10: T1490XA,Boolean,Medical
+problem_diagnosis_t63481a,ICD10: T63481A,Boolean,Medical
+problem_diagnosis_t753xxa,ICD10: T753XXA,Boolean,Medical
+problem_diagnosis_t7840xa,ICD10: T7840XA,Boolean,Medical
+problem_diagnosis_t8131xa,ICD10: T8131XA,Boolean,Medical
+problem_diagnosis_u071,ICD10: U071,Boolean,Medical
+problem_diagnosis_v048,ICD10: V048,Boolean,Medical
+problem_diagnosis_v4950xa,ICD10: V4950XA,Boolean,Medical
+problem_diagnosis_v4959xa,ICD10: V4959XA,Boolean,Medical
+problem_diagnosis_v654,ICD10: V654,Boolean,Medical
+problem_diagnosis_v70,ICD10: V70,Boolean,Medical
+problem_diagnosis_v700,ICD10: V700,Boolean,Medical
+problem_diagnosis_v724,ICD10: V724,Boolean,Medical
+problem_diagnosis_v726,ICD10: V726,Boolean,Medical
+problem_diagnosis_v7292,ICD10: V7292,Boolean,Medical
+problem_diagnosis_v83,ICD10: V83,Boolean,Medical
+problem_diagnosis_v858,ICD10: V858,Boolean,Medical
+problem_diagnosis_v890xxa,ICD10: V890XXA,Boolean,Medical
+problem_diagnosis_v892xxa,ICD10: V892XXA,Boolean,Medical
+problem_diagnosis_v921,ICD10: V921,Boolean,Medical
+problem_diagnosis_v95,ICD10: V95,Boolean,Medical
+problem_diagnosis_w19xxxa,ICD10: W19XXXA,Boolean,Medical
+problem_diagnosis_w208xxa,ICD10: W208XXA,Boolean,Medical
+problem_diagnosis_w540xxd,ICD10: W540XXD,Boolean,Medical
+problem_diagnosis_x01,ICD10: X01,Boolean,Medical
+problem_diagnosis_y92838,ICD10: Y92838,Boolean,Medical
+problem_diagnosis_y9301,ICD10: Y9301,Boolean,Medical
+problem_diagnosis_z00,ICD10: Z00,Boolean,Medical
+problem_diagnosis_z000,ICD10: Z000,Boolean,Medical
+problem_diagnosis_z0000,ICD10: Z0000,Boolean,Medical
+problem_diagnosis_z0000 00,ICD10: Z0000 00,Boolean,Medical
+problem_diagnosis_z0001,ICD10: Z0001,Boolean,Medical
+problem_diagnosis_z00110,ICD10: Z00110,Boolean,Medical
+problem_diagnosis_z00111,ICD10: Z00111,Boolean,Medical
+problem_diagnosis_z00121,ICD10: Z00121,Boolean,Medical
+problem_diagnosis_z00129,ICD10: Z00129,Boolean,Medical
+problem_diagnosis_z006,ICD10: Z006,Boolean,Medical
+problem_diagnosis_z008,ICD10: Z008,Boolean,Medical
+problem_diagnosis_z0100,ICD10: Z0100,Boolean,Medical
+problem_diagnosis_z01411,ICD10: Z01411,Boolean,Medical
+problem_diagnosis_z01419,ICD10: Z01419,Boolean,Medical
+problem_diagnosis_z01419 00,ICD10: Z01419 00,Boolean,Medical
+problem_diagnosis_z01810,ICD10: Z01810,Boolean,Medical
+problem_diagnosis_z01812,ICD10: Z01812,Boolean,Medical
+problem_diagnosis_z01818,ICD10: Z01818,Boolean,Medical
+problem_diagnosis_z021,ICD10: Z021,Boolean,Medical
+problem_diagnosis_z0289,ICD10: Z0289,Boolean,Medical
+problem_diagnosis_z029,ICD10: Z029,Boolean,Medical
+problem_diagnosis_z0389,ICD10: Z0389,Boolean,Medical
+problem_diagnosis_z042,ICD10: Z042,Boolean,Medical
+problem_diagnosis_z043,ICD10: Z043,Boolean,Medical
+problem_diagnosis_z09,ICD10: Z09,Boolean,Medical
+problem_diagnosis_z111,ICD10: Z111,Boolean,Medical
+problem_diagnosis_z113,ICD10: Z113,Boolean,Medical
+problem_diagnosis_z114,ICD10: Z114,Boolean,Medical
+problem_diagnosis_z1211,ICD10: Z1211,Boolean,Medical
+problem_diagnosis_z122,ICD10: Z122,Boolean,Medical
+problem_diagnosis_z1231,ICD10: Z1231,Boolean,Medical
+problem_diagnosis_z1239,ICD10: Z1239,Boolean,Medical
+problem_diagnosis_z124,ICD10: Z124,Boolean,Medical
+problem_diagnosis_z125,ICD10: Z125,Boolean,Medical
+problem_diagnosis_z1289,ICD10: Z1289,Boolean,Medical
+problem_diagnosis_z13220,ICD10: Z13220,Boolean,Medical
+problem_diagnosis_z1329,ICD10: Z1329,Boolean,Medical
+problem_diagnosis_z136,ICD10: Z136,Boolean,Medical
+problem_diagnosis_z13820,ICD10: Z13820,Boolean,Medical
+problem_diagnosis_z13858,ICD10: Z13858,Boolean,Medical
+problem_diagnosis_z1388,ICD10: Z1388,Boolean,Medical
+problem_diagnosis_z1389,ICD10: Z1389,Boolean,Medical
+problem_diagnosis_z1501,ICD10: Z1501,Boolean,Medical
+problem_diagnosis_z202,ICD10: Z202,Boolean,Medical
+problem_diagnosis_z20818,ICD10: Z20818,Boolean,Medical
+problem_diagnosis_z20822,ICD10: Z20822,Boolean,Medical
+problem_diagnosis_z20828,ICD10: Z20828,Boolean,Medical
+problem_diagnosis_z2231,ICD10: Z2231,Boolean,Medical
+problem_diagnosis_z23,ICD10: Z23,Boolean,Medical
+problem_diagnosis_z2809,ICD10: Z2809,Boolean,Medical
+problem_diagnosis_z2821,ICD10: Z2821,Boolean,Medical
+problem_diagnosis_z2882,ICD10: Z2882,Boolean,Medical
+problem_diagnosis_z2889,ICD10: Z2889,Boolean,Medical
+problem_diagnosis_z289,ICD10: Z289,Boolean,Medical
+problem_diagnosis_z3040,ICD10: Z3040,Boolean,Medical
+problem_diagnosis_z3049,ICD10: Z3049,Boolean,Medical
+problem_diagnosis_z309,ICD10: Z309,Boolean,Medical
+problem_diagnosis_z3141,ICD10: Z3141,Boolean,Medical
+problem_diagnosis_z3201,ICD10: Z3201,Boolean,Medical
+problem_diagnosis_z3202,ICD10: Z3202,Boolean,Medical
+problem_diagnosis_z3402,ICD10: Z3402,Boolean,Medical
+problem_diagnosis_z3480,ICD10: Z3480,Boolean,Medical
+problem_diagnosis_z3482,ICD10: Z3482,Boolean,Medical
+problem_diagnosis_z363,ICD10: Z363,Boolean,Medical
+problem_diagnosis_z3689,ICD10: Z3689,Boolean,Medical
+problem_diagnosis_z370,ICD10: Z370,Boolean,Medical
+problem_diagnosis_z3801,ICD10: Z3801,Boolean,Medical
+problem_diagnosis_z3a09,ICD10: Z3A09,Boolean,Medical
+problem_diagnosis_z3a14,ICD10: Z3A14,Boolean,Medical
+problem_diagnosis_z3a16,ICD10: Z3A16,Boolean,Medical
+problem_diagnosis_z3a21,ICD10: Z3A21,Boolean,Medical
+problem_diagnosis_z3a24,ICD10: Z3A24,Boolean,Medical
+problem_diagnosis_z3a25,ICD10: Z3A25,Boolean,Medical
+problem_diagnosis_z412,ICD10: Z412,Boolean,Medical
+problem_diagnosis_z418,ICD10: Z418,Boolean,Medical
+problem_diagnosis_z4802,ICD10: Z4802,Boolean,Medical
+problem_diagnosis_z4803,ICD10: Z4803,Boolean,Medical
+problem_diagnosis_z5181,ICD10: Z5181,Boolean,Medical
+problem_diagnosis_z5320,ICD10: Z5320,Boolean,Medical
+problem_diagnosis_z640,ICD10: Z640,Boolean,Medical
+problem_diagnosis_z681,ICD10: Z681,Boolean,Medical
+problem_diagnosis_z6820,ICD10: Z6820,Boolean,Medical
+problem_diagnosis_z6821,ICD10: Z6821,Boolean,Medical
+problem_diagnosis_z6822,ICD10: Z6822,Boolean,Medical
+problem_diagnosis_z6823,ICD10: Z6823,Boolean,Medical
+problem_diagnosis_z6825,ICD10: Z6825,Boolean,Medical
+problem_diagnosis_z6826,ICD10: Z6826,Boolean,Medical
+problem_diagnosis_z6827,ICD10: Z6827,Boolean,Medical
+problem_diagnosis_z6828,ICD10: Z6828,Boolean,Medical
+problem_diagnosis_z6829,ICD10: Z6829,Boolean,Medical
+problem_diagnosis_z6830,ICD10: Z6830,Boolean,Medical
+problem_diagnosis_z6831,ICD10: Z6831,Boolean,Medical
+problem_diagnosis_z6832,ICD10: Z6832,Boolean,Medical
+problem_diagnosis_z6833,ICD10: Z6833,Boolean,Medical
+problem_diagnosis_z6834,ICD10: Z6834,Boolean,Medical
+problem_diagnosis_z6836,ICD10: Z6836,Boolean,Medical
+problem_diagnosis_z6837,ICD10: Z6837,Boolean,Medical
+problem_diagnosis_z6838,ICD10: Z6838,Boolean,Medical
+problem_diagnosis_z6839,ICD10: Z6839,Boolean,Medical
+problem_diagnosis_z6841,ICD10: Z6841,Boolean,Medical
+problem_diagnosis_z6842,ICD10: Z6842,Boolean,Medical
+problem_diagnosis_z6843,ICD10: Z6843,Boolean,Medical
+problem_diagnosis_z6852,ICD10: Z6852,Boolean,Medical
+problem_diagnosis_z6853,ICD10: Z6853,Boolean,Medical
+problem_diagnosis_z6854,ICD10: Z6854,Boolean,Medical
+problem_diagnosis_z712,ICD10: Z712,Boolean,Medical
+problem_diagnosis_z713,ICD10: Z713,Boolean,Medical
+problem_diagnosis_z7141,ICD10: Z7141,Boolean,Medical
+problem_diagnosis_z718,ICD10: Z718,Boolean,Medical
+problem_diagnosis_z7182,ICD10: Z7182,Boolean,Medical
+problem_diagnosis_z7189,ICD10: Z7189,Boolean,Medical
+problem_diagnosis_z719,ICD10: Z719,Boolean,Medical
+problem_diagnosis_z720,ICD10: Z720,Boolean,Medical
+problem_diagnosis_z73819,ICD10: Z73819,Boolean,Medical
+problem_diagnosis_z754,ICD10: Z754,Boolean,Medical
+problem_diagnosis_z758,ICD10: Z758,Boolean,Medical
+problem_diagnosis_z759,ICD10: Z759,Boolean,Medical
+problem_diagnosis_z762,ICD10: Z762,Boolean,Medical
+problem_diagnosis_z7689,ICD10: Z7689,Boolean,Medical
+problem_diagnosis_z77098,ICD10: Z77098,Boolean,Medical
+problem_diagnosis_z789,ICD10: Z789,Boolean,Medical
+problem_diagnosis_z7901,ICD10: Z7901,Boolean,Medical
+problem_diagnosis_z794,ICD10: Z794,Boolean,Medical
+problem_diagnosis_z79890,ICD10: Z79890,Boolean,Medical
+problem_diagnosis_z79891,ICD10: Z79891,Boolean,Medical
+problem_diagnosis_z79899,ICD10: Z79899,Boolean,Medical
+problem_diagnosis_z800,ICD10: Z800,Boolean,Medical
+problem_diagnosis_z8042,ICD10: Z8042,Boolean,Medical
+problem_diagnosis_z808,ICD10: Z808,Boolean,Medical
+problem_diagnosis_z818,ICD10: Z818,Boolean,Medical
+problem_diagnosis_z8249,ICD10: Z8249,Boolean,Medical
+problem_diagnosis_z8261,ICD10: Z8261,Boolean,Medical
+problem_diagnosis_z833,ICD10: Z833,Boolean,Medical
+problem_diagnosis_z841,ICD10: Z841,Boolean,Medical
+problem_diagnosis_z8489,ICD10: Z8489,Boolean,Medical
+problem_diagnosis_z8546,ICD10: Z8546,Boolean,Medical
+problem_diagnosis_z85831,ICD10: Z85831,Boolean,Medical
+problem_diagnosis_z85850,ICD10: Z85850,Boolean,Medical
+problem_diagnosis_z86010,ICD10: Z86010,Boolean,Medical
+problem_diagnosis_z86718,ICD10: Z86718,Boolean,Medical
+problem_diagnosis_z8673,ICD10: Z8673,Boolean,Medical
+problem_diagnosis_z8709,ICD10: Z8709,Boolean,Medical
+problem_diagnosis_z87891,ICD10: Z87891,Boolean,Medical
+problem_diagnosis_z90710,ICD10: Z90710,Boolean,Medical
+problem_diagnosis_z9114,ICD10: Z9114,Boolean,Medical
+problem_diagnosis_z9119,ICD10: Z9119,Boolean,Medical
+problem_diagnosis_z9181,ICD10: Z9181,Boolean,Medical
+problem_diagnosis_z952,ICD10: Z952,Boolean,Medical
+problem_diagnosis_z961,ICD10: Z961,Boolean,Medical
+problem_diagnosis_z96651,ICD10: Z96651,Boolean,Medical
+problem_diagnosis_z9851,ICD10: Z9851,Boolean,Medical
+problem_diagnosis_z98890,ICD10: Z98890,Boolean,Medical
+problem_diagnosis_z992,ICD10: Z992,Boolean,Medical
+problem_missing,Missing problem,Boolean,Medical
